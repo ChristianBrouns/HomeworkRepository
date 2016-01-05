@@ -12,11 +12,11 @@ public class NamingConventions {
     int _adress = 21;
     String __444 = "Numbers";
 
-    int 5name = "2";
-    String #name = "Someone";
-    double for = 1.25;
-    int while = 5;
-    boolean switch = true;
+    //  int 5name = "2";
+    //  String #name = "Someone";
+    //  double for = 1.25;
+    //  int while = 5;
+    //  boolean switch = true;
 }
 
 
