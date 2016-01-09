@@ -1,21 +1,22 @@
 /**
  * Created by Christian on 5-1-2016.
- */
+*/
+
 public class ReverseString {
     public static String input(String str) {
-        String input = "The cat sat on the bank ";
-        int length = input.length();
+
+        int length = str.length();
         for (int i = length - 1; i >= 0; i--) {
-            input = input + input.charAt(i);
+            str = str + str.charAt(i);
         }
-        return input;
+        return str;
     }
 
     public static void main(String[] args) {
-        System.out.println(ReverseString.input("... "));
+        for (int n = 0; n < args.length; n++)
+        System.out.println(ReverseString.input(args[n]));
     }
 }
-
 
 /*
 Schijf een methode dat prints een String omgekeerd  to System.out    

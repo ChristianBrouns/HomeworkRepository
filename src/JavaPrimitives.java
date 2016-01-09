@@ -3,14 +3,14 @@
  */
 public class JavaPrimitives {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 0xFF;
-        int c = 0b101;
+        int a = 030; // voorloop nul betekend dat het een octal nummer is. Gebasseerd op 8. In dit geval 8 tot de derde macht.
+        int b = 0xFF; // 0x betekend hexadecimaal. Gebasseerd op 16.
+        int c = 0b101; // 0b gebasseerd op 2.
         int d = 1000_1;
         float e = 5.67f;
         double f = 6.78;
         long huge = 88888888888l;
-        char g = '€';
+        char g = '\u20ac';
         boolean on = true;
         boolean off = false;
 
@@ -38,7 +38,7 @@ int b = 0xFF; 
 int c = 0b101; 
 int d = 1000_1;  
 float e = 5.67f;    // ( float e = 5.67 is niet toegestaan !) 
-double f = 6.78; 
+double f = 6.78; double f = 3; is ook goed!!
 long ​huge = ​88888888888l​ ; 
 char ​ g = ​ '​ \u20ac​ '​ ; 
 boolean on = true;  // ( boolean on = 1 is niet toegestaan) 
@@ -48,5 +48,7 @@ Schrijf een class dat prints de bovenstaande waarden. 
 Dan voor uitleg over waarom die zijn  toegestaan lees het volgende …     
 ​java primitives   
 Dit is belangrijk voor je exam dus lees het goed ! 
+
+Ook hoeveel bit is een int, short, long. etc.
 
 */
