@@ -1,6 +1,9 @@
 /**
  * Created by Christian on 5-1-2016.
 */
+/*
+Een String omkeren to System.out      
+ */
 
 public class ReverseString {
     public static String input(String str) {
@@ -17,10 +20,3 @@ public class ReverseString {
         System.out.println(ReverseString.input(args[n]));
     }
 }
-
-/*
-Schijf een methode dat prints een String omgekeerd  to System.out    
-Als de input voor de methode is “The cat sat on the bank”i then the output is: knab eht no tas tac ehT   
-Tip:  look up the System class for methode print en the String class for the method charAt. 
-The  length of a String is beschikbaar met de methode length();  
- */

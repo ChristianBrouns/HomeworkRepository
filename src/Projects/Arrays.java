@@ -4,7 +4,7 @@ package Homework2;
  * Created by Christian on 9-1-2016.
  */
 public class Arrays {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //ook mag VarArgs psvm (String... args) onderzoek VarArgs
         args = new String[]{"zes", "vijf", "negen"};
         for (int i = 0; i < args.length; i++)
 
